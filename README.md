@@ -50,7 +50,6 @@ Package ctxkey is like errors.New() for context keys.
 
   [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg/ctxkey)
   [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg/ctxkey?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg/ctxkey)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg?branch=master)
 
 
 ## [pkg/frameof](https://github.com/cstockton/pkg/tree/master/frameof)
@@ -60,7 +59,6 @@ perspective of this packages caller.
 
   [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg/frameof)
   [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg/frameof?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg/frameof)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg?branch=master)
 
 
 ## Bugs and Patches
