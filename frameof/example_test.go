@@ -56,11 +56,11 @@ func Example_skip() {
 	fr := call(0, 4, func() frameof.Frame {
 		return frameof.Skip(5)
 	})
-	fmt.Printf("Frame in %v() at %v:%d for package %v.\n",
-		fr.Name(), filepath.Base(fr.File), fr.Line, fr.Pkg())
+	fmt.Printf("Frame in %v() at %v for package %v.\n",
+		fr.Name(), filepath.Base(fr.File), fr.Pkg())
 
 	// Output:
-	// Frame in Example_skip() at example_test.go:56 for package frameof_test.
+	// Frame in Example_skip() at example_test.go for package frameof_test.
 }
 
 func calls(n, depth int, fn func() []frameof.Frame) []frameof.Frame {
@@ -75,14 +75,14 @@ func Example_callers() {
 		return frameof.Callers()
 	})
 	for _, fr := range frs[:5] {
-		fmt.Printf("Frame in %v() at %v:%d for package %v.\n",
-			fr.Name(), filepath.Base(fr.File), fr.Line, fr.Pkg())
+		fmt.Printf("Frame in %v() in file %v.\n",
+			fr.Name(), filepath.Base(fr.File))
 	}
 
 	// Output:
-	// Frame in Callers() at frameof.go:100 for package frameof.
-	// Frame in func1() at example_test.go:75 for package frameof_test.Example_callers.
-	// Frame in calls() at example_test.go:70 for package frameof_test.
-	// Frame in calls() at example_test.go:68 for package frameof_test.
-	// Frame in calls() at example_test.go:68 for package frameof_test.
+	// Frame in Callers() in file frameof.go.
+	// Frame in func1() in file example_test.go.
+	// Frame in calls() in file example_test.go.
+	// Frame in calls() in file example_test.go.
+	// Frame in calls() in file example_test.go.
 }

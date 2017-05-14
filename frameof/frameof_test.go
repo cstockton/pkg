@@ -29,7 +29,14 @@ func TestCreate(t *testing.T) {
 		if exp, got := test.fn, fr.Function; exp != got {
 			t.Fatalf(`exp Function field %v; got %v`, exp, got)
 		}
-		if exp, got := `frameof_test.go`, filepath.Base(fr.File); exp != got {
+		expfl, expln := `frameof_test.go`, test.ln
+		gotfl, gotln := fr.At()
+		gotfl = filepath.Base(gotfl)
+		if gotfl != expfl || expln != gotln {
+			t.Fatalf(`exp At return value (%v, %v); got (%v, %v)`,
+				expfl, expln, gotfl, gotln)
+		}
+		if exp, got := expfl, filepath.Base(fr.File); exp != got {
 			t.Fatalf(`exp File field %v; got %v`, exp, got)
 		}
 		if 0 == fr.Entry {
@@ -48,7 +55,7 @@ func TestCreate(t *testing.T) {
 func TestAllocations(t *testing.T) {
 	const (
 		expFn = `github.com/cstockton/pkg/frameof.TestAllocations.func1`
-		expLn = 54
+		expLn = 61
 	)
 	allocs := testing.AllocsPerRun(1000, func() {
 		fr := Call()
