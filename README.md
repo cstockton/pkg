@@ -1,4 +1,4 @@
-# Pkg: collection of Go packages I personally maintain.
+# Pkg
 
   [![Build Status](http://img.shields.io/travis/cstockton/pkg.svg?style=flat-square)](https://travis-ci.org/cstockton/pkg)
   [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/pkg/master/LICENSE)
@@ -40,7 +40,7 @@ versions of the Go trace format.
   [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/go-trace/master/LICENSE)
 
 
-## [pkg/ctxkey](https://github.com/cstockton/pkg/ctxkey)
+## [pkg/ctxkey](https://github.com/cstockton/pkg/tree/master/ctxkey)
 
 Package ctxkey is like errors.New() for context keys.
 
@@ -49,7 +49,7 @@ Package ctxkey is like errors.New() for context keys.
   [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/ctxkey/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg/ctxkey?branch=master)
 
 
-## [pkg/frameof](https://github.com/cstockton/pkg/frameof)
+## [pkg/frameof](https://github.com/cstockton/pkg/tree/master/frameof)
 
 Package frameof provides a few simple helpers to access call frames from the
 perspective of this packages caller.
