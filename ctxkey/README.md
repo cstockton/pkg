@@ -2,7 +2,7 @@
 
   [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg/ctxkey)
   [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg/ctxkey?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg/ctxkey)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/ctxkey/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg/ctxkey?branch=master)
+  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/gh/cstockton/pkg/src/master/ctxkey/ctxkey.go)
 
   > Get:
   > ```bash
