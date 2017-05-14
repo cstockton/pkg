@@ -1,5 +1,8 @@
 # Pkg
 
+  [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg)
+  [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg)
+  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg?branch=master)
   [![Build Status](http://img.shields.io/travis/cstockton/pkg.svg?style=flat-square)](https://travis-ci.org/cstockton/pkg)
   [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/pkg/master/LICENSE)
 
@@ -46,7 +49,7 @@ Package ctxkey is like errors.New() for context keys.
 
   [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg/ctxkey)
   [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg/ctxkey?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg/ctxkey)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/ctxkey/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg/ctxkey?branch=master)
+  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg?branch=master)
 
 
 ## [pkg/frameof](https://github.com/cstockton/pkg/tree/master/frameof)
@@ -56,7 +59,7 @@ perspective of this packages caller.
 
   [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/cstockton/pkg/frameof)
   [![Go Report Card](https://goreportcard.com/badge/github.com/cstockton/pkg/frameof?style=flat-square)](https://goreportcard.com/report/github.com/cstockton/pkg/frameof)
-  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/frameof/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg/frameof?branch=master)
+  [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg?branch=master)
 
 
 ## Bugs and Patches
