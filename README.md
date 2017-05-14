@@ -17,7 +17,7 @@ I will migrate a good portion of my smaller private and some public packages
 here. In addition I'll provide links to my larger packages as well.
 
 
-## github.com/cstockton/go-conv
+## [conv](https://github.com/cstockton/go-conv)
 
 Package conv provides fast and intuitive conversions across Go types.
 
@@ -28,7 +28,7 @@ Package conv provides fast and intuitive conversions across Go types.
   [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/go-conv/master/LICENSE)
 
 
-## github.com/cstockton/go-trace
+## [trace](https://github.com/cstockton/go-trace)
 
 Package trace extends the features of the Go execution tracer, allowing
 analyzing events at runtime by providing a streaming Decoder and Encoder for all
@@ -40,7 +40,7 @@ versions of the Go trace format.
   [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/cstockton/go-trace/master/LICENSE)
 
 
-## github.com/cstockton/pkg/ctxkey
+## [pkg/ctxkey](https://github.com/cstockton/pkg/ctxkey)
 
 Package ctxkey is like errors.New() for context keys.
 
@@ -49,7 +49,7 @@ Package ctxkey is like errors.New() for context keys.
   [![Coverage Status](https://img.shields.io/codecov/c/github/cstockton/pkg/ctxkey/master.svg?style=flat-square)](https://codecov.io/github/cstockton/pkg/ctxkey?branch=master)
 
 
-## github.com/cstockton/pkg/frameof
+## [pkg/frameof](https://github.com/cstockton/pkg/frameof)
 
 Package frameof provides a few simple helpers to access call frames from the
 perspective of this packages caller.
