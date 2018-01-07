@@ -113,10 +113,7 @@ func Callers() []Frame {
 }
 
 func loadFrame(fr *Frame) {
-	fn := runtime.FuncForPC(fr.PC)
-	if fn == nil {
-		return
+	if fn := runtime.FuncForPC(fr.PC); fn != nil {
+		fr.Func, fr.Function, fr.Entry = fn, fn.Name(), fn.Entry()
 	}
-	fr.Func, fr.Function, fr.Entry = fn, fn.Name(), fn.Entry()
-	return
 }
